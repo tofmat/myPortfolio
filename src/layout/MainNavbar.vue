@@ -26,8 +26,7 @@
       <li class="nav-item">
         <a
           class="nav-link"
-          href="https://www.creative-tim.com/product/vue-now-ui-kit"
-          target="_blank"
+          href="#aboutme"
         >
           <i class="now-ui-icons users_single-02"></i>
           <p>About Me</p>
@@ -36,8 +35,7 @@
       <li class="nav-item">
         <a
           class="nav-link"
-          href="https://www.creative-tim.com/product/vue-now-ui-kit"
-          target="_blank"
+          href="#skills"
         >
           <i class="now-ui-icons tech_laptop"></i>
           <p>Skills</p>
@@ -46,8 +44,7 @@
       <li class="nav-item">
         <a
           class="nav-link"
-          href="https://www.creative-tim.com/product/vue-now-ui-kit"
-          target="_blank"
+          href="#portfolio"
         >
           <i class="now-ui-icons design_app"></i>
           <p>Portfolio</p>
@@ -56,8 +53,7 @@
       <li class="nav-item">
         <a
           class="nav-link btn btn-neutral"
-          href="https://www.creative-tim.com/product/vue-now-ui-kit-pro"
-          target="_blank"
+          href=""
         >
           <i class="now-ui-icons arrows-1_cloud-download-93"></i>
           <p>Download Resume</p>
@@ -68,39 +64,39 @@
         <a
           class="nav-link"
           rel="tooltip"
-          title="Follow us on Twitter"
+          title="Check me on Git"
           data-placement="bottom"
-          href="https://twitter.com/CreativeTim"
+          href="https://github.com/tofmat"
           target="_blank"
         >
           <i class="fab fa-github"></i>
-          <p class="d-lg-none d-xl-none">Twitter</p>
+          <p class="d-lg-none d-xl-none">GitHub</p>
         </a>
       </li>
       <li class="nav-item">
         <a
           class="nav-link"
           rel="tooltip"
-          title="Like us on Facebook"
+          title="Check me on LinkedIn"
           data-placement="bottom"
-          href="https://www.facebook.com/CreativeTim"
+          href="https://linkedin.com/in/ogunfowotetosin"
           target="_blank"
         >
           <i class="fab fa-linkedin"></i>
-          <p class="d-lg-none d-xl-none">Facebook</p>
+          <p class="d-lg-none d-xl-none">LinkedIn</p>
         </a>
       </li>
       <li class="nav-item">
         <a
           class="nav-link"
           rel="tooltip"
-          title="Follow us on Instagram"
+          title="Follow us on Twitter"
           data-placement="bottom"
-          href="https://www.instagram.com/CreativeTimOfficial"
+          href="https://www.twitter.com/dtofmat"
           target="_blank"
         >
           <i class="fab fa-twitter"></i>
-          <p class="d-lg-none d-xl-none">Instagram</p>
+          <p class="d-lg-none d-xl-none">Twitter</p>
         </a>
       </li>
     </template>

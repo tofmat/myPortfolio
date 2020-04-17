@@ -14,24 +14,20 @@
         <p class="category">Front End Developer <br/> Project Manager</p>
         <div class="content">
           <div class="social-description">
-            <h2>>35</h2>
-            <p>Repository</p>
-          </div>
-          <div class="social-description">
-            <h2>2+ Years</h2>
+            <h2>3+ Years</h2>
             <p>Experience</p>
           </div>
           <div class="social-description">
-            <h2>5</h2>
-            <p>Clients</p>
+            <h2> > 35</h2>
+            <p>Repositories</p>
           </div>
         </div>
       </div>
     </div>
-    <div class="section">
+    <div class="section"  id="aboutme">
       <div class="container">
         <div class="button-container">
-          <a href="#button" v-popover:popover1 class="btn-primary btn btn-round btn-lg">Hire me
+          <a href="mailto:me@tosinogunfowote.com" v-popover:popover1 class="btn-primary btn btn-round btn-lg">Hire me
             <el-popover
               ref="popover1"
               popper-class="popover"
@@ -48,9 +44,9 @@
         </div>
 
     <nucleo-icons-section></nucleo-icons-section>
-    <basic-elements></basic-elements>
+    <basic-elements id="skills"></basic-elements>
 
-        <div class="row">
+        <div class="row" id="portfolio">
           <div class="col-md-6 ml-auto mr-auto">
             <h4 class="title text-center">My Portfolio</h4>
           </div>
@@ -67,10 +63,10 @@
               <div class="col-md-10 ml-auto mr-auto">
                 <div class="row collections">
                   <div class="col-md-6">
-                    <img src="img/w1.png" class="img-raised" />
+                    <a href="http://frontiersafrica.org"> <img src="img/w1.png" class="img-raised"/> </a>
                   </div>
                   <div class="col-md-6">
-                    <img src="img/w2.png" alt="" class="img-raised" />
+                    <a href="https://saf-ng.org"> <img src="img/w2.png" class="img-raised"/> </a>
                   </div>
                 </div>
               </div>

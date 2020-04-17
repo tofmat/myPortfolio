@@ -9,7 +9,7 @@
           <h2 class="title">Reach out to me!</h2>
           <a
             target="_blank"
-            href="https://www.twitter.com/creativetim"
+            href="https://www.twitter.com/dtofmat"
             class="btn btn-neutral btn-icon btn-twitter btn-round btn-lg"
             rel="tooltip"
             title="Follow us"
@@ -18,16 +18,7 @@
           </a>
           <a
             target="_blank"
-            href="https://www.facebook.com/creativetim"
-            class="btn btn-neutral btn-icon btn-facebook btn-round btn-lg"
-            rel="tooltip"
-            title="Like us"
-          >
-            <i class="fab fa-facebook-square"></i>
-          </a>
-          <a
-            target="_blank"
-            href="https://www.linkedin.com/company-beta/9430489/"
+            href="https://linkedin.com/in/ogunfowotetosin"
             class="btn btn-neutral btn-icon btn-linkedin btn-lg btn-round"
             rel="tooltip"
             title="Follow us"
@@ -36,7 +27,7 @@
           </a>
           <a
             target="_blank"
-            href="https://github.com/creativetimofficial/vue-now-ui-kit"
+            href="https://github.com/tofmat"
             class="btn btn-neutral btn-icon btn-github btn-round btn-lg"
             rel="tooltip"
             title="Star on Github"

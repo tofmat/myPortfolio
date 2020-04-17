@@ -11,13 +11,13 @@
                     <img v-lazy="'assetsimg/nucleo.svg'" alt="">
                 </div> -->
           <a
-            href="https://demos.creative-tim.com/now-ui-kit/nucleo-icons.html"
+            href="mailto:me@tosinogunfowote.com"
             class="btn btn-primary btn-round btn-lg"
             target="_blank"
             >Contact Me</a
           >
           <a
-            href="https://nucleoapp.com/?ref=1712"
+            href="https://linkedin.com/in/ogunfowotetosin"
             class="btn btn-primary btn-simple btn-round btn-lg"
             target="_blank"
             >LinkedIn Profile</a
