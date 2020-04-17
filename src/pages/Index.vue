@@ -3,110 +3,141 @@
     <div class="page-header clear-filter" filter-color="orange">
       <parallax
         class="page-header-image"
-        style="background-image:url('img/header.jpg')"
+        style="background-image:url('img/bg5.jpg')"
       >
       </parallax>
       <div class="container">
-        <div class="content-center brand">
-          <img class="n-logo" src="img/now-logo.png" alt="" />
-          <h1 class="h1-seo">Now UI Kit.</h1>
-          <h3>A beautiful Bootstrap 4 UI kit. Yours free.</h3>
+        <div class="photo-container">
+          <img src="img/myAvatar.png" alt="" />
         </div>
-        <h6 class="category category-absolute">
-          Designed by
-          <a href="http://invisionapp.com/" target="_blank">
-            <img src="img/invision-white-slim.png" class="invision-logo" /> </a
-          >. Coded by
-          <a href="https://www.creative-tim.com" target="_blank">
-            <img
-              src="img/creative-tim-white-slim2.png"
-              class="creative-tim-logo"
-            /> </a
-          >.
-        </h6>
-      </div>
-    </div>
-    <div class="main">
-      <div class="section section-images">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="hero-images-container">
-                <img src="img/hero-image-1.png" alt="" />
-              </div>
-              <div class="hero-images-container-1">
-                <img src="img/hero-image-2.png" alt="" />
-              </div>
-              <div class="hero-images-container-2">
-                <img src="img/hero-image-3.png" alt="" />
-              </div>
-            </div>
+        <h3 class="title">Tosin Ogunfowote</h3>
+        <p class="category">Front End Developer <br/> Project Manager</p>
+        <div class="content">
+          <div class="social-description">
+            <h2>>35</h2>
+            <p>Repository</p>
+          </div>
+          <div class="social-description">
+            <h2>2+ Years</h2>
+            <p>Experience</p>
+          </div>
+          <div class="social-description">
+            <h2>5</h2>
+            <p>Clients</p>
           </div>
         </div>
       </div>
     </div>
-    <basic-elements></basic-elements>
-    <navigation></navigation>
-    <tabs-section></tabs-section>
-    <progress-pagination></progress-pagination>
-    <notifications></notifications>
-    <typography></typography>
-    <javascript-components></javascript-components>
-    <carousel-section></carousel-section>
-    <nucleo-icons-section></nucleo-icons-section>
     <div class="section">
-      <div class="container text-center">
-        <div class="row justify-content-md-center">
-          <div class="col-md-12 col-lg-8">
-            <h2 class="title">Completed with examples</h2>
-            <h5 class="description">
-              The kit comes with three pre-built pages to help you get started
-              faster. You can change the text and images and you're good to go.
-              More importantly, looking at them will give you a picture of what
-              you can built with this powerful Bootstrap 4 ui kit.
-            </h5>
+      <div class="container">
+        <div class="button-container">
+          <a href="#button" v-popover:popover1 class="btn-primary btn btn-round btn-lg">Hire me
+            <el-popover
+              ref="popover1"
+              popper-class="popover"
+              placement="bottom"
+              width="200"
+              trigger="hover"
+            >
+              <div class="popover-body">
+                Shoot me a mail to discuss hiring me.
+              </div>
+            </el-popover>
+          </a>
+          
+        </div>
+
+    <nucleo-icons-section></nucleo-icons-section>
+    <basic-elements></basic-elements>
+
+        <div class="row">
+          <div class="col-md-6 ml-auto mr-auto">
+            <h4 class="title text-center">My Portfolio</h4>
           </div>
+          <tabs
+            pills
+            class="nav-align-center"
+            tab-content-classes="gallery"
+            tab-nav-classes="nav-pills-just-icons"
+            type="primary"
+          >
+            <tab-pane title="Profile">
+              <i slot="label" class="fab fa-wordpress"></i>
+
+              <div class="col-md-10 ml-auto mr-auto">
+                <div class="row collections">
+                  <div class="col-md-6">
+                    <img src="img/w1.png" class="img-raised" />
+                  </div>
+                  <div class="col-md-6">
+                    <img src="img/w2.png" alt="" class="img-raised" />
+                  </div>
+                </div>
+              </div>
+            </tab-pane>
+
+            <tab-pane title="Home">
+              <i slot="label" class="fab fa-vuejs"></i>
+
+              <div class="col-md-10 ml-auto mr-auto">
+                <div class="row collections">
+                  <div class="col-md-6">
+                    <img src="img/v1.png" class="img-raised" />
+                    <img src="img/v3.png" class="img-raised" />
+                  </div>
+                  <div class="col-md-6">
+                    <img src="img/v2.png" alt="" class="img-raised" />
+                    <img src="img/v4.png" alt="" class="img-raised" />
+                  </div>
+                </div>
+              </div>
+            </tab-pane>
+
+            <tab-pane title="Messages">
+              <i slot="label" class="fas fa-code"></i>
+
+              <div class="col-md-10 ml-auto mr-auto">
+                <div class="row collections">
+                  <div class="col-md-6">
+                    <img src="img/c1.png" class="img-raised" />
+                  </div>
+                  <div class="col-md-6">
+                    <img src="img/c2.png" class="img-raised" />
+                  </div>
+                </div>
+              </div>
+            </tab-pane>
+          </tabs>
         </div>
       </div>
-    </div>
-    <signup-form></signup-form>
-    <examples-section></examples-section>
     <download-section></download-section>
+
+      
+    </div>
   </div>
 </template>
 <script>
-import { Parallax } from '@/components';
-import BasicElements from './components/BasicElementsSection';
-import Navigation from './components/Navigation';
-import TabsSection from './components/Tabs';
-import ProgressPagination from './components/ProgressPagination';
-import Notifications from './components/Notifications';
-import Typography from './components/Typography';
-import JavascriptComponents from './components/JavascriptComponents';
-import CarouselSection from './components/CarouselSection';
+import { Tabs, TabPane } from '@/components';
 import NucleoIconsSection from './components/NucleoIconsSection';
-import SignupForm from './components/SignupForm';
-import ExamplesSection from './components/ExamplesSection';
+import BasicElements from './components/BasicElementsSection';
 import DownloadSection from './components/DownloadSection';
 
+
+import { Popover } from 'element-ui';
+
 export default {
-  name: 'index',
-  bodyClass: 'index-page',
+  name: 'profile',
+  bodyClass: 'profile-page',
   components: {
-    Parallax,
+    Tabs,
+    TabPane,
     BasicElements,
-    Navigation,
-    TabsSection,
-    ProgressPagination,
-    Notifications,
-    Typography,
-    JavascriptComponents,
-    CarouselSection,
     NucleoIconsSection,
-    SignupForm,
-    ExamplesSection,
-    DownloadSection
+    DownloadSection,
+    [Popover.name]: Popover
   }
 };
 </script>
-<style></style>
+<style>
+
+</style>
