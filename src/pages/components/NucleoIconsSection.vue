@@ -3,12 +3,9 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6 col-md-12">
-          <h2 class="title">Nucleo Icons</h2>
+          <h2 class="title">Get to know me</h2>
           <h5 class="description">
-            Now UI Kit comes with 100 custom icons made by our friends from
-            NucleoApp. The official package contains over 2.100 thin icons which
-            are looking great in combination with Now UI Kit Make sure you check
-            all of them and use those that you like the most.
+            I am a highly competent IT professional with a proven track record in designing and developing websites, managing IT projects and developing web applications. I have strong technical skills as well as excellent interpersonal skills, enabling me to interact with a wide range of team and clients. I am eager to be challenged in order to grow and further improve my IT skills ultimately benefiting the operations of the organisation that I work for.
           </h5>
           <!-- <div class="nucleo-container">
                     <img v-lazy="'assetsimg/nucleo.svg'" alt="">
@@ -17,33 +14,17 @@
             href="https://demos.creative-tim.com/now-ui-kit/nucleo-icons.html"
             class="btn btn-primary btn-round btn-lg"
             target="_blank"
-            >View Demo Icons</a
+            >Contact Me</a
           >
           <a
             href="https://nucleoapp.com/?ref=1712"
             class="btn btn-primary btn-simple btn-round btn-lg"
             target="_blank"
-            >View All Icons</a
+            >LinkedIn Profile</a
           >
         </div>
         <div class="col-lg-6 col-md-12">
-          <div class="icons-container">
-            <i class="now-ui-icons ui-1_send"></i>
-            <i class="now-ui-icons ui-2_like"></i>
-            <i class="now-ui-icons transportation_air-baloon"></i>
-            <i class="now-ui-icons text_bold"></i>
-            <i class="now-ui-icons tech_headphones"></i>
-            <i class="now-ui-icons emoticons_satisfied"></i>
-            <i class="now-ui-icons shopping_cart-simple"></i>
-            <i class="now-ui-icons objects_spaceship"></i>
-            <i class="now-ui-icons media-2_note-03"></i>
-            <i class="now-ui-icons ui-2_favourite-28"></i>
-            <i class="now-ui-icons design_palette"></i>
-            <i class="now-ui-icons clothes_tie-bow"></i>
-            <i class="now-ui-icons location_pin"></i>
-            <i class="now-ui-icons objects_key-25"></i>
-            <i class="now-ui-icons travel_istanbul"></i>
-          </div>
+          <img src="img/aboutme.png">
         </div>
       </div>
     </div>

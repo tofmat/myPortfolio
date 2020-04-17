@@ -109,7 +109,7 @@
     }
 
     &[filter-color="orange"]{
-        @include linear-gradient(rgba($black-color,.20), rgba(224, 23, 3, 0.6));
+        @include linear-gradient(rgba($black-color,.20), rgba(101, 4, 131, 0.6));
     }
 }
 
@@ -218,7 +218,7 @@
          top: 36%;
          left: 44%;
         font-size: 65px;
-        color: #f96332;
+        color: rgb(212, 111, 187);
         padding: 1px;
     }
 

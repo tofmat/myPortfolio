@@ -8,7 +8,7 @@
       </parallax>
       <div class="container">
         <div class="photo-container">
-          <img src="img/ryan.jpg" alt="" />
+          <img src="img/myAvatar.png" alt="" />
         </div>
         <h3 class="title">Tosin Ogunfowote</h3>
         <p class="category">Front End Developer <br/> Project Manager</p>
@@ -31,7 +31,7 @@
     <div class="section">
       <div class="container">
         <div class="button-container">
-          <a href="#button" v-popover:popover1 class="btn btn-primary btn-round btn-lg">Hire me
+          <a href="#button" v-popover:popover1 class="btn-primary btn btn-round btn-lg">Hire me
             <el-popover
               ref="popover1"
               popper-class="popover"
@@ -46,13 +46,9 @@
           </a>
           
         </div>
-        <h3 class="title">About me</h3>
-        <h5 class="description">
-          An artist of considerable range, Ryan — the name taken by
-          Melbourne-raised, Brooklyn-based Nick Murphy — writes, performs and
-          records all of his own music, giving it a warm, intimate feel with a
-          solid groove structure. An artist of considerable range.
-        </h5>
+
+    <nucleo-icons-section></nucleo-icons-section>
+
         <div class="row">
           <div class="col-md-6 ml-auto mr-auto">
             <h4 class="title text-center">My Portfolio</h4>
@@ -122,6 +118,7 @@
 </template>
 <script>
 import { Tabs, TabPane } from '@/components';
+import NucleoIconsSection from './components/NucleoIconsSection';
 import { Popover } from 'element-ui';
 
 export default {
@@ -130,8 +127,11 @@ export default {
   components: {
     Tabs,
     TabPane,
+    NucleoIconsSection,
     [Popover.name]: Popover
   }
 };
 </script>
-<style></style>
+<style>
+
+</style>
