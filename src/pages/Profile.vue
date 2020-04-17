@@ -48,6 +48,7 @@
         </div>
 
     <nucleo-icons-section></nucleo-icons-section>
+    <basic-elements></basic-elements>
 
         <div class="row">
           <div class="col-md-6 ml-auto mr-auto">
@@ -119,6 +120,8 @@
 <script>
 import { Tabs, TabPane } from '@/components';
 import NucleoIconsSection from './components/NucleoIconsSection';
+import BasicElements from './components/BasicElementsSection';
+
 import { Popover } from 'element-ui';
 
 export default {
@@ -127,6 +130,7 @@ export default {
   components: {
     Tabs,
     TabPane,
+    BasicElements,
     NucleoIconsSection,
     [Popover.name]: Popover
   }
