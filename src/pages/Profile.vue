@@ -62,51 +62,47 @@
             type="primary"
           >
             <tab-pane title="Profile">
-              <i slot="label" class="now-ui-icons design_image"></i>
+              <i slot="label" class="fab fa-wordpress"></i>
 
               <div class="col-md-10 ml-auto mr-auto">
                 <div class="row collections">
                   <div class="col-md-6">
-                    <img src="img/bg6.jpg" class="img-raised" />
-                    <img src="img/bg11.jpg" alt="" class="img-raised" />
+                    <img src="img/w1.png" class="img-raised" />
                   </div>
                   <div class="col-md-6">
-                    <img src="img/bg7.jpg" alt="" class="img-raised" />
-                    <img src="img/bg8.jpg" alt="" class="img-raised" />
+                    <img src="img/w2.png" alt="" class="img-raised" />
                   </div>
                 </div>
               </div>
             </tab-pane>
 
             <tab-pane title="Home">
-              <i slot="label" class="now-ui-icons location_world"></i>
+              <i slot="label" class="fab fa-vuejs"></i>
 
               <div class="col-md-10 ml-auto mr-auto">
                 <div class="row collections">
                   <div class="col-md-6">
-                    <img src="img/bg1.jpg" alt="" class="img-raised" />
-                    <img src="img/bg3.jpg" alt="" class="img-raised" />
+                    <img src="img/v1.png" class="img-raised" />
+                    <img src="img/v3.png" class="img-raised" />
                   </div>
                   <div class="col-md-6">
-                    <img src="img/bg8.jpg" alt="" class="img-raised" />
-                    <img src="img/bg7.jpg" alt="" class="img-raised" />
+                    <img src="img/v2.png" alt="" class="img-raised" />
+                    <img src="img/v4.png" alt="" class="img-raised" />
                   </div>
                 </div>
               </div>
             </tab-pane>
 
             <tab-pane title="Messages">
-              <i slot="label" class="now-ui-icons sport_user-run"></i>
+              <i slot="label" class="fas fa-code"></i>
 
               <div class="col-md-10 ml-auto mr-auto">
                 <div class="row collections">
                   <div class="col-md-6">
-                    <img src="img/bg3.jpg" alt="" class="img-raised" />
-                    <img src="img/bg8.jpg" alt="" class="img-raised" />
+                    <img src="img/c1.png" class="img-raised" />
                   </div>
                   <div class="col-md-6">
-                    <img src="img/bg7.jpg" alt="" class="img-raised" />
-                    <img src="img/bg6.jpg" class="img-raised" />
+                    <img src="img/c2.png" class="img-raised" />
                   </div>
                 </div>
               </div>
@@ -114,6 +110,9 @@
           </tabs>
         </div>
       </div>
+    <download-section></download-section>
+
+      
     </div>
   </div>
 </template>
@@ -121,6 +120,8 @@
 import { Tabs, TabPane } from '@/components';
 import NucleoIconsSection from './components/NucleoIconsSection';
 import BasicElements from './components/BasicElementsSection';
+import DownloadSection from './components/DownloadSection';
+
 
 import { Popover } from 'element-ui';
 
@@ -132,6 +133,7 @@ export default {
     TabPane,
     BasicElements,
     NucleoIconsSection,
+    DownloadSection,
     [Popover.name]: Popover
   }
 };
