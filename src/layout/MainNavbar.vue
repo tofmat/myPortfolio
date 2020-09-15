@@ -53,10 +53,10 @@
       <li class="nav-item">
         <a
           class="nav-link btn btn-neutral"
-          href=""
+          href="resume.pdf"
         >
           <i class="now-ui-icons arrows-1_cloud-download-93"></i>
-          <p>Download Resume</p>
+          <p class="ml-2">Resume</p>
         </a>
       </li>
 

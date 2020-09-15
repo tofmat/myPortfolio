@@ -7,14 +7,11 @@
           <h5 class="description">
             I am a highly competent IT professional with a proven track record in designing and developing websites, managing IT projects and developing web applications. I have strong technical skills as well as excellent interpersonal skills, enabling me to interact with a wide range of team and clients. I am eager to be challenged in order to grow and further improve my IT skills ultimately benefiting the operations of the organisation that I work for.
           </h5>
-          <!-- <div class="nucleo-container">
-                    <img v-lazy="'assetsimg/nucleo.svg'" alt="">
-                </div> -->
           <a
-            href="mailto:me@tosinogunfowote.com"
+            href="https://github.com/tofmat"
             class="btn btn-primary btn-round btn-lg"
             target="_blank"
-            >Contact Me</a
+            >Github</a
           >
           <a
             href="https://linkedin.com/in/ogunfowotetosin"
