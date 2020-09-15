@@ -11,15 +11,15 @@
           <img src="img/myAvatar.png" alt="" />
         </div>
         <h3 class="title">Tosin Ogunfowote</h3>
-        <p class="category">Front End Developer <br/> Project Manager</p>
+        <p class="category">Frontend Developer <br/> Project Manager</p>
         <div class="content">
           <div class="social-description">
             <h2>3+ Years</h2>
             <p>Experience</p>
           </div>
           <div class="social-description">
-            <h2> > 35</h2>
-            <p>Repositories</p>
+            <h2> > 5</h2>
+            <p>Projects</p>
           </div>
         </div>
       </div>
@@ -64,9 +64,35 @@
                 <div class="row collections">
                   <div class="col-md-6">
                     <a href="http://frontiersafrica.org"> <img src="img/w1.png" class="img-raised"/> </a>
+                    <p>Frontiers Africa</p>
                   </div>
                   <div class="col-md-6">
                     <a href="https://saf-ng.org"> <img src="img/w2.png" class="img-raised"/> </a>
+                    <p>Segun Aina Foundation</p>
+                  </div>
+                  <div class="col-md-6">
+                    <a href="http://wrapdigital.com.ng/"> <img src="img/w3.png" class="img-raised"/> </a>
+                    <p>Wrap Digital</p>
+                  </div>
+                  <div class="col-md-6">
+                    <a href="http://wrapdigital.com.ng/"> <img src="img/w4.png" class="img-raised"/> </a>
+                    <p>Wrap Digital</p>
+                  </div>
+                  <div class="col-md-6">
+                    <a href="https://trillzglobal.com/"> <img src="img/w5.png" class="img-raised"/> </a>
+                    <p>Trillz Global</p>
+                  </div>
+                  <div class="col-md-6">
+                    <a href="https://trillzglobal.com/"> <img src="img/w6.png" class="img-raised"/> </a>
+                    <p>Trillz Global</p>
+                  </div>
+                  <div class="col-md-6">
+                    <a href="https://trillzglobal.com/"> <img src="img/w7.png" class="img-raised"/> </a>
+                    <p>Trillz Global</p>
+                  </div>
+                  <div class="col-md-6">
+                    <a href="http://frontiersafrica.org"> <img src="img/w8.png" class="img-raised"/> </a>
+                    <p>Hendray Promo</p>
                   </div>
                 </div>
               </div>
@@ -78,12 +104,22 @@
               <div class="col-md-10 ml-auto mr-auto">
                 <div class="row collections">
                   <div class="col-md-6">
-                    <img src="img/v1.png" class="img-raised" />
-                    <img src="img/v3.png" class="img-raised" />
+                    <a href="#"> <img src="img/v1.png" class="img-raised"/> </a>
                   </div>
                   <div class="col-md-6">
-                    <img src="img/v2.png" alt="" class="img-raised" />
-                    <img src="img/v4.png" alt="" class="img-raised" />
+                    <a href="#"> <img src="img/v2.png" class="img-raised"/> </a>
+                  </div>
+                  <div class="col-md-6">
+                    <a href="#"> <img src="img/v3.png" class="img-raised"/> </a>
+                  </div>
+                  <div class="col-md-6">
+                    <a href="#"> <img src="img/v4.png" class="img-raised"/> </a>
+                  </div>
+                  <div class="col-md-6">
+                    <a href="#"> <img src="img/v5.png" class="img-raised"/> </a>
+                  </div>
+                  <div class="col-md-6">
+                    <a href="#"> <img src="img/v6.png" class="img-raised"/> </a>
                   </div>
                 </div>
               </div>
